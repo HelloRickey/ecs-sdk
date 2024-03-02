@@ -1,0 +1,29 @@
+{
+  "name": "ecsdk",
+  "version": "0.0.1",
+  "description": "ecsdk is the sdk of EthereumECS",
+  "main": "lib/index.js",
+  "module": "src/index.js",
+  "scripts": {
+    "test": "babel-node test.js",
+    "build": "babel src/ECSDK.js src/TypesArray.js --out-dir lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HelloRickey/ecs-sdk.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.23.0",
+    "@babel/core": "^7.23.2",
+    "@babel/node": "^7.22.19",
+    "@babel/preset-env": "^7.23.2",
+    "esm": "^3.2.25"
+  },
+  "dependencies": {
+    "ame-sdk": "^0.1.0",
+    "eth-crypto": "^2.6.0",
+    "web3": "1.10.3"
+  }
+}
